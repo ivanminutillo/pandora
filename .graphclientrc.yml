@@ -1,0 +1,13 @@
+# .graphclientrc.yml
+sources:
+  - name: omenxdai
+    handler:
+      graphql:
+        endpoint: https://api.thegraph.com/subgraphs/name/protofire/omen-xdai
+  - name: conditionaltoken
+    handler:
+      graphql:
+        endpoint: https://api.thegraph.com/subgraphs/name/gnosis/conditional-tokens-gc
+        
+documents:
+  - ./app/data.graphql
